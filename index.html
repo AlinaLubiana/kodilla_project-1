@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hallo we are creatively</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Signika+Negative:wght@700&display=swap" rel="stylesheet">
@@ -136,7 +137,7 @@
         </div>
     </section>
 
-<!--section contact-->
+<!--contact-->
     <section>
         <div class="form-container">
             <h1 class="section-title">contact us</h1>
@@ -144,21 +145,21 @@
             <div class="form-input">
                 <form action="#" method="post" enctype="multipart/form-data">
                     <div class="double-input">
-
                         <label for="fname">Your name</label><br>
-                        <input type="text" id="fname" placeholder="Ivan" minlength="3" required/>
+                        <input type="text" id="fname" minlength="3" required/>
                     </div>
                     <div class="double-input">
                         <label for="email">Your e-mail</label><br>
-                        <input type="email" id="email" placeholder="ivanov@gmail.com" required/>
+                        <input type="email" id="email" required/>
                     </div>
                     <div class="double-input">
-                        <label for="usersudjekt">Your e-mail</label><br>
-                        <input type="text" id="usersudjekt" placeholder="IvanIvanov" required/>
+                        <label for="usersudjekt">Subject</label><br>
+                        <input type="text" id="usersudjekt" required/>
                     </div>
+
                     <div class="double-input">
                         <label for="usersudjekt">Type your massage here</label><br>
-                        <textarea name="text"></textarea>
+                        <textarea type="text"></textarea>
                     </div>
                     <a tabindex="12" href="#" type="submit" class="btn btn-six">Submit</a>
                 </form>
@@ -171,5 +172,13 @@
             </div>
         </div>  
     </section>
+
+    <footer>
+        <div class="social-media">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    </footer>
 </body>
 </html>
