@@ -258,6 +258,7 @@ img {
     padding: 96px 200px;
     padding-top: 96px;
     min-width: 1140px;
+ 
 }
 .form-input {
     display: flex;
@@ -288,6 +289,7 @@ input[type], textarea[type] {
     color: #2c2c54;
 }
 .btn-six {
+    width: 200px;
     border-color: #ffffff;
     color: #ffffff;
     background-image: linear-gradient(90deg, #ffffff 50%, transparent 50%);
@@ -317,4 +319,31 @@ i.fa-brands {
     cursor: pointer;
     }
 */
-    
+.social-media {
+    text-align: center;
+    margin-bottom: 48px;
+}  
+.social-media ul {
+    list-style-type:none;
+    display: flex;
+    justify-content: center;
+}
+.social-media li {
+    font-size: 0;
+    padding: 10px;
+
+}
+.social-media li i {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #ff5252;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 60px;
+    text-align: center;
+}
+.social-media li i:hover {
+    transform: scale(1.2);
+}
+
